@@ -7,18 +7,18 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3EBAC0;
+  background: #000000;
   border-radius: 3.5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #22666a;
+  background: #454545;
 }
 
 .default-text-box {
-  border: #3EBAC0 solid 2px;
+  border: #000000 solid 2px;
   border-radius: 40px;
-  background-color: #000505;
+  background-color: #c5baba;
   padding: 20px;
 }
 
@@ -38,12 +38,12 @@
 }
 
 .navbar-toggler {
-  background-color: #3EBAC0;
+  background-color: #ffffff;
 }
 
 .title {
   margin: 25px;
-  text-decoration: underline #3EBAC0;
+  text-decoration: underline #000000;
   text-underline-offset: 10px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .background-color {
-  color: #000505;
+  color: #ffffff;
 }
 
 .text-color {
@@ -80,7 +80,7 @@
 }
 
 .background-color-background {
-  background-color: #000505;
+  background-color: #ffffff;
 }
 
 .text-color-background {
@@ -102,12 +102,12 @@
 body {
   width: 100%;
   overflow-x: hidden;
-  background-color: #000505;
+  background-color: #efefef;
 }
 
 #navbar-background {
-  background-color: #000505;
-  border-bottom: #3EBAC0 solid 2px;
+  background-color: #ffffff;
+
 }
 
 #logo img {
@@ -131,6 +131,7 @@ body {
 
   .heading-size-change {
     font-size: 20px;
+    border: red solid 2px;
   }
 
   
@@ -144,7 +145,7 @@ body {
 
   .heading-size-change {
     font-size: 15px;
-    border: #3EBAC0 solid 2px;
+    border: red solid 2px;
     margin-bottom: 10px;
   }
 
@@ -196,7 +197,7 @@ body {
 
 .topnav a {
   float: left;
-  color: #CFFCFF;
+  color: black;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -210,6 +211,7 @@ body {
   height: 75px;
   outline-offset: 1px;
   margin-left: 10px;
+  margin-top: 7.5px;
 }
 
 .skeuomorphic-buttons-navbar a.skeuomorphic-buttons {
@@ -222,14 +224,14 @@ body {
 
 .skeuomorphic-buttons {
   cursor: pointer;
-  color: #CFFCFF;
+  background-color: #efefef;
   font-weight: 700;
-  transition: color 1s ease-out;
+  transition: background-color 0.25s ease-out;
 }
 
 .skeuomorphic-buttons:hover {
   cursor: pointer;
-  color: #3EBAC0;
+  background-color: #d4d4d4;
 }
 
 .container-xl {
@@ -242,7 +244,7 @@ body {
 .top-row {
   margin-top: 25px;
   margin-bottom: 80px;
-  background-color: #000505;
+  background-color: #ffffff;
   font-size: 70px;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
@@ -331,11 +333,12 @@ body {
 }
 
 #Homepage {
-  background-color: #000505;
+  background-color: #efefef;
 }
 
 .navbar-brand {
   margin-right: -10px;
+  color: #000000;
 }
 
 #size-p {
@@ -353,4 +356,31 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%
+}
+
+.card {
+  background-color: #efefef;
+  border: #bbbbbb solid 1px;
+  width: 550px;
+  height: 320px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534), 0 6px 20px 0 rgba(0, 0, 0, 0.485);
+}
+
+.btn {
+  border: #bbbbbb solid 1px;
+  transition: border 0.25s;
+}
+
+.btn:hover {
+  border: black solid 1px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.form-label {
+  font-size: 25px;
 }
