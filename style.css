@@ -3,22 +3,22 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #000505;
+  background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+  background: #00c683;
   border-radius: 3.5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #454545;
+  background: #1fdd93;
 }
 
 .default-text-box {
-  border: #000000 solid 2px;
+  border: #1fdd93 solid 2px;
   border-radius: 40px;
-  background-color: #c5baba;
+  background-color: #000000;
   padding: 20px;
 }
 
@@ -38,7 +38,8 @@
 }
 
 .navbar-toggler {
-  background-color: #ffffff;
+  background-color: #1fdd93;
+  color: #00c683;
 }
 
 .title {
@@ -60,7 +61,7 @@
 }
 
 .text-color {
-  color: #CFFCFF;
+  color: #1fdd93;
 }
 
 .secondary-color {
@@ -102,12 +103,11 @@
 body {
   width: 100%;
   overflow-x: hidden;
-  background-color: #efefef;
+  background-color: #000000;
 }
 
 #navbar-background {
-  background-color: #ffffff;
-
+  background-color: #000000;
 }
 
 #logo img {
@@ -131,7 +131,7 @@ body {
 
   .heading-size-change {
     font-size: 20px;
-    border: red solid 2px;
+    border: #1fdd93 solid 2px;
   }
 
   
@@ -145,7 +145,7 @@ body {
 
   .heading-size-change {
     font-size: 15px;
-    border: red solid 2px;
+    border: #1fdd93 solid 2px;
     margin-bottom: 10px;
   }
 
@@ -193,11 +193,12 @@ body {
   flex-flow: row nowrap;
   width: 100%;
   top: 0;
+  border-bottom: 2px solid #1fdd93;
 }
 
 .topnav a {
   float: left;
-  color: black;
+  color: #1fdd93;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -212,6 +213,7 @@ body {
   outline-offset: 1px;
   margin-left: 10px;
   margin-top: 7.5px;
+  margin-bottom: 10px;
 }
 
 .skeuomorphic-buttons-navbar a.skeuomorphic-buttons {
@@ -224,27 +226,29 @@ body {
 
 .skeuomorphic-buttons {
   cursor: pointer;
-  background-color: #efefef;
+  background-color: #000000;
   font-weight: 700;
   transition: background-color 0.25s ease-out;
 }
 
 .skeuomorphic-buttons:hover {
   cursor: pointer;
-  background-color: #d4d4d4;
+  border: #cffff1 solid 2px;
+  color: #cffff1;
+  background-color: #007653;
 }
 
 .container-xl {
   border-radius: 20px;
   margin-top: 10px;
-  background-color: #ffffff;
-  border: #2a3a45 ridge 10px;
+  background-color: #000000;
+  border: #1fdd93 ridge 10px;
 }
 
 .top-row {
   margin-top: 25px;
   margin-bottom: 80px;
-  background-color: #ffffff;
+  background-color: #000000;
   font-size: 70px;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
@@ -322,7 +326,7 @@ body {
 
 .homepage-position {
   position: absolute;
-  padding-top: 100px;
+  padding-top: 125px;
   z-index: 10;
   width: 100%;
 }
@@ -333,22 +337,22 @@ body {
 }
 
 #Homepage {
-  background-color: #efefef;
+  background-color: #000000;
 }
 
 .navbar-brand {
   margin-right: -10px;
-  color: #000000;
+  color: #1fdd93;
 }
 
 #size-p {
-  color: #3EBAC0;
+  color: #1fdd93;
 }
   
 .heading { 
   margin-bottom: 20px; 
   font-size: 3rem; 
-  color: black; 
+  color: #1fdd93; 
 } 
   
 .header { 
@@ -359,28 +363,50 @@ body {
 }
 
 .card {
-  background-color: #efefef;
-  border: #bbbbbb solid 1px;
+  background-color: #000000;
+  border: #1fdd93 solid 2px;
   width: 550px;
-  height: 320px;
+  height: 345px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534), 0 6px 20px 0 rgba(0, 0, 0, 0.485);
 }
 
 .btn {
-  border: #bbbbbb solid 1px;
-  transition: border 0.25s;
+  border: #1fdd93 solid 2px;
+  transition: color border 0.25s;
+  color: #1fdd93;
 }
 
 .btn:hover {
-  border: black solid 1px;
+  border: #cffff1 solid 2px;
+  color: #cffff1;
+  background-color: #007653;
 }
 
 .card-title {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
+  color: #1fdd93;
 }
 
 .form-label {
   font-size: 25px;
+  color: #1fdd93;
+}
+
+.form-control {
+  background-color: #000000;
+  color: #1fdd93;
+}
+
+.form-control {
+  background-color: #000000;
+  color: #1fdd93;
+  border: #1fdd93 solid 2px;
+}
+
+.form-control:focus {
+  border: #cffff1 solid 2px;
+  color: #cffff1;
+  background-color: #007653;
 }
