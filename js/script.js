@@ -26,11 +26,11 @@ flashcardMaker = (text, delThisIndex) => {
 
   flashcard.className = 'flashcard';
 
-  flashcard.setAttribute("style", "border: 2px solid #1fdd93; margin-top:30px");
-  question.setAttribute("style", "padding: 15px");
+  flashcard.setAttribute("style", "border: 2px solid #1fdd93; margin-top:30px; margin-right: 20px; margin-left: 20px");
+  question.setAttribute("style", "text-align: center; padding: 15px; color: #1fdd93");
   question.textContent = text.my_question;
 
-  answer.setAttribute("style", "text-align:center; display:none; color: #1fdd93; border-top: 2px solid #1fdd93; padding: 15px");
+  answer.setAttribute("style", "text-align: center; display:none; color: #cffff1; border-top: 2px solid #1fdd93; padding: 15px");
   answer.textContent = text.my_answer;
 
   del.className = "fas fa-minus";
@@ -46,7 +46,7 @@ flashcardMaker = (text, delThisIndex) => {
 
   flashcard.addEventListener("click", () => {
     if(answer.style.display == "none")
-      answer.style.display = "block";
+      answer.style.display = "flex";
     else
       answer.style.display = "none";
   })

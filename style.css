@@ -366,7 +366,7 @@ body {
   background-color: #000000;
   border: #1fdd93 solid 2px;
   width: 550px;
-  height: 345px;
+  height: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534), 0 6px 20px 0 rgba(0, 0, 0, 0.485);
 }
 
@@ -409,4 +409,16 @@ body {
   border: #cffff1 solid 2px;
   color: #cffff1;
   background-color: #007653;
+}
+
+.flashcard {
+  width: 550px;
+  height: 100%;
+}
+
+h2:nth-child(2) {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
